@@ -38,7 +38,7 @@ function Contact() {
           "Accept": "application/json",
         },
         body: JSON.stringify({
-          access_key: import.meta.env.VITE_WEB3FORMS_ACCESS_KEY || "your_web3forms_access_key_here",
+          access_key: "a1ab159f-4fc1-4990-918a-ffa93cce3d91",
           name: formData.name,
           email: formData.email,
           message: formData.message,
@@ -95,9 +95,9 @@ function Contact() {
                 <div>
                   <h4 className="font-semibold text-sm text-gray-600 dark:text-gray-400 mb-1">Email</h4>
                   <a 
-                    href="mailto:your.email@example.com"
+                    href="mailto:mhmmdmnsdk@gmail.com"
                     className="text-base md:text-lg text-black dark:text-white hover:text-[#3B82F6] transition-colors">
-                    your.email@example.com
+                    mhmmdmnsdk@gmail.com
                   </a>
                 </div>
               </div>
@@ -110,9 +110,9 @@ function Contact() {
                 <div>
                   <h4 className="font-semibold text-sm text-gray-600 dark:text-gray-400 mb-1">Phone</h4>
                   <a 
-                    href="tel:+1234567890"
+                    href="tel:+251935192050"
                     className="text-base md:text-lg text-black dark:text-white hover:text-[#3B82F6] transition-colors">
-                    +1 (234) 567-8900
+                    +251 93 519 2050
                   </a>
                 </div>
               </div>
@@ -125,7 +125,7 @@ function Contact() {
                 <div>
                   <h4 className="font-semibold text-sm text-gray-600 dark:text-gray-400 mb-1">Location</h4>
                   <p className="text-base md:text-lg text-black dark:text-white">
-                    Your City, Your Country
+                    Addis Ababa, Ethiopia
                   </p>
                 </div>
               </div>
@@ -138,7 +138,7 @@ function Contact() {
               </h3>
               <div className="flex gap-4">
                 <a
-                  href="https://github.com/your-username"
+                  href="https://github.com/MohammedaminSa"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="GitHub Profile"
@@ -146,7 +146,7 @@ function Contact() {
                   <FaGithub />
                 </a>
                 <a
-                  href="https://linkedin.com/in/your-profile"
+                  href="https://linkedin.com/in/mohammedamin-sadik"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="LinkedIn Profile"
@@ -154,7 +154,7 @@ function Contact() {
                   <FaLinkedin />
                 </a>
                 <a
-                  href="https://facebook.com/your-profile"
+                  href="https://facebook.com/Kishira.kishira"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Facebook Profile"
@@ -182,7 +182,7 @@ function Contact() {
                   name="name"
                   value={formData.name}
                   onChange={handleChange}
-                  placeholder="Your Name"
+                  placeholder="kishir sadik"
                   required
                   className="w-full p-3 md:p-3.5 rounded-lg bg-white dark:bg-[#0D0D0D] border border-gray-300 dark:border-[#3B82F6] text-black dark:text-white focus:outline-none focus:ring-2 focus:ring-[#3B82F6] text-sm md:text-base"
                 />
@@ -198,7 +198,7 @@ function Contact() {
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
-                  placeholder="your.email@example.com"
+                  placeholder="kishir@example.com"
                   required
                   className="w-full p-3 md:p-3.5 rounded-lg bg-white dark:bg-[#0D0D0D] border border-gray-300 dark:border-[#3B82F6] text-black dark:text-white focus:outline-none focus:ring-2 focus:ring-[#3B82F6] text-sm md:text-base"
                 />

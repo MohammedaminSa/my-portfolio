@@ -13,7 +13,7 @@ function Home() {
           <h1 className="text-lg sm:text-xl md:text-2xl lg:text-2xl mb-2 font-extrabold leading-tight">
             <span className="text-black dark:text-white">Hi, I'm </span>
             <span className="bg-[linear-gradient(270deg,_#3B82F6_10%,_#8B5CF6_100%)] bg-clip-text text-transparent">
-              Your Name
+              Mohammedamin
             </span>
           </h1>
 
@@ -31,10 +31,10 @@ function Home() {
           {/* Buttons - Hidden on mobile, visible on desktop */}
           <div className="hidden md:flex flex-wrap gap-3 lg:gap-4 items-center mb-6">
             <a
-              href="/Your_Name_CV.pdf"
-              download="Your_Name_CV"
+              href="/Mohammedamin Sadik - CV.pdf"
+              download="Mohammedamin_Sadik_CV"
               className="text-sm md:text-sm lg:text-base px-5 py-2.5 md:px-6 md:py-3 lg:px-7 lg:py-3.5 bg-gradient-to-r from-[#3B82F6] to-[#d7cdef] text-white tracking-[1px] rounded-md shadow-[0_0_20px_rgba(59,130,246,0.5)] transition-all duration-500 hover:scale-105 hover:shadow-[0_0_30px_rgba(139,92,246,0.7)] inline-flex items-center gap-2"
-              aria-label="Download Your Name's CV">
+              aria-label="Download Mohammedamin Sadik's CV">
               <FaDownload />
               Download CV
             </a>
@@ -47,7 +47,7 @@ function Home() {
           {/* Social Links: hidden on mobile, visible on sm and up */}
           <div className="hidden md:flex gap-4 items-center justify-start mt-6">
             <a
-              href="https://linkedin.com/in/your-profile"
+              href="https://linkedin.com/in/mohammedamin-sadik"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn Profile"
@@ -55,7 +55,7 @@ function Home() {
               <FaLinkedin />
             </a>
             <a
-              href="https://github.com/your-username"
+              href="https://github.com/mohammedamin-sadik"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub Profile"
@@ -72,7 +72,7 @@ function Home() {
             <img
               className="w-full h-auto max-h-[70vh] rounded-2xl shadow-[0_0_25px_#3B82F6] transition duration-500 hover:shadow-[0_0_30px_#3B82F6,_0_0_50px_#8B5CF6] object-cover"
               src="/profile.jpg"
-              alt="Your Name - Software Engineer"
+              alt="Mohammedamin Sadik - Software Engineer"
               width="400"
               height="533"
             />
@@ -130,7 +130,7 @@ function Home() {
         {/* Buttons */}
         <div className="flex flex-wrap justify-center gap-4 w-full">
           <a
-            href="/Your_Name_CV.pdf"
+            href="/Mohammedamin Sadik - CV.pdf"
             download
             className="text-base px-6 py-3 bg-gradient-to-r from-[#3B82F6] to-[#8B5CF6] text-white tracking-[1px] rounded-md shadow-[0_0_20px_rgba(59,130,246,0.5)] transition-all duration-500 hover:scale-105 hover:shadow-[0_0_30px_rgba(139,92,246,0.7)] inline-flex items-center gap-2">
             <FaDownload />
@@ -146,7 +146,7 @@ function Home() {
         {/* Social Links */}
         <div className="flex gap-8 items-center justify-center">
           <a
-            href="https://linkedin.com/in/your-profile"
+            href="https://linkedin.com/in/mohammedamin-sadik"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn Profile"
@@ -154,7 +154,7 @@ function Home() {
             <FaLinkedin />
           </a>
           <a
-            href="https://github.com/your-username"
+            href="https://github.com/mohammedamin-sadik"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub Profile"

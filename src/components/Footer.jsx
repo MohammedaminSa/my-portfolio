@@ -8,9 +8,9 @@ function Footer() {
         {/* Brand */}
         <div>
           <h3 className="text-3xl font-bold bg-gradient-to-r from-[#3B82F6] via-[#6366F1] to-[#8B5CF6] bg-clip-text text-transparent mb-2" style={{ fontFamily: "'Pacifico', cursive" }}>
-            Your Brand
+            Kishir
           </h3>
-          <p className="text-sm text-gray-400 mb-1">by Your Name</p>
+          <p className="text-sm text-gray-400 mb-1">by Mohammedamin Sadik</p>
           <p className="text-gray-400 text-sm">
             Crafting modern web experiences with passion and precision.
           </p>
@@ -49,7 +49,7 @@ function Footer() {
           {/* Social Icons */}
           <div className="flex gap-3 flex-wrap justify-center sm:justify-end">
             <a
-              href="https://github.com/your-username"
+              href="https://github.com/MohammedaminSa"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub Profile"
@@ -57,7 +57,7 @@ function Footer() {
               <FaGithub />
             </a>
             <a
-              href="https://linkedin.com/in/your-profile"
+              href="https://linkedin.com/in/mohammedamin-sadik"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn Profile"
@@ -65,7 +65,7 @@ function Footer() {
               <FaLinkedin />
             </a>
             <a
-              href="https://facebook.com/your-profile"
+              href="https://facebook.com/kishira.kishira"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Facebook Profile"
@@ -73,7 +73,7 @@ function Footer() {
               <FaFacebook />
             </a>
             <a
-              href="https://instagram.com/your-profile"
+              href="https://instagram.com/mohammedamin.sadik"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram Profile"
@@ -81,7 +81,7 @@ function Footer() {
               <FaInstagram />
             </a>
             <a
-              href="https://t.me/your-username"
+              href="https://t.me/kishirsa"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Telegram Profile"
@@ -104,7 +104,7 @@ function Footer() {
 
       {/* Bottom Copyright */}
       <div className="mt-8 text-center text-gray-500 text-xs sm:text-sm border-t border-gray-700 pt-4">
-        © {new Date().getFullYear()} Your Brand - Your Name. All Rights Reserved.
+        © {new Date().getFullYear()} Kishir - Mohammedamin Sadik. All Rights Reserved.
       </div>
     </footer>
   );
